@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryptocurrency Price Checker</title>
+    <style>
+        * {
+            background-color: black;
+            color: white;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1>Welcome to the Crypto Jungle website.</h1>
+    <h2>Here you can get some crypto data like the price and current marketcap of your favorites assets.</h2>
+    <form action="/get_data" method="post">
+        <label for="crypto">Enter Cryptocurrency:</label>
+        <input type="text" id="crypto" name="crypto" placeholder="BTC, ETH, etc." required>
+        <button type="submit">Get Data</button>
+        <br>
+    </form>
+    <footer>
+        <h3>Click below to know more about our crypto event.</h3>
+        <a href="/bitcoin_event"><button type="button">More</button></a>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,349 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Blockchain Event</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/img/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        h1 {
+    float: left;
+    margin-left: 13%;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#introd {
+    text-decoration: none;
+}
+
+section#guests-speakers a {
+    color:white;
+}
+
+/* NAV */
+
+nav li {
+    float: left;
+}
+
+nav>ul>li>a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 10px;
+}
+
+nav>ul>li>a:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.2);
+}
+
+nav {
+    position: sticky;
+    border: solid grey 1px;
+    overflow: auto;
+    top: 0;
+    background-color: black;
+    /*background-image: linear-gradient(to bottom, rebeccapurple, white);*/
+    z-index: 100;
+}
+
+nav>ul{
+    list-style-type: none;
+}
+
+#main_background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+body {
+    background-color: black;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, article, p {
+    color: white;
+}
+
+header>div {
+    padding: 35px;
+    /*margin-top: 15%;*/
+}
+
+header>div>h2 {
+    width: 50%;
+}
+
+header>div>img{
+    width: 4em;
+    margin: auto;
+}
+
+section>div>h3 {
+    margin: 10px;
+}
+
+section>div>figure>a>img {
+    width: 80%;
+}
+
+section>div>figure>a>img:hover{
+    transform: scale(1.1);
+}
+
+section>div{
+    float: left;
+    width: 50%;
+}
+
+#gallery, #schedule, #testimonials {
+    clear: both;
+}
+
+#gallery>div>a>img {
+    width: 100%;
+    float: left;
+}
+
+#gallery>div>a>img:hover {
+    transform: scale(1.05)
+}
+
+#schedule>aside {
+    margin-top: 20px;
+    float: right;
+    width: 50%
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#map {
+    margin: 0 auto 40px ;
+    display: flex;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-image: url("../img/main_background_2.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+/* Mobile design */
+
+@media (max-width: 768px) {
+    header {
+        background-image: none;
+    }
+
+    header>div>h2 {
+        width: 100%;
+    }
+}
+
+/* Big screen design */
+
+@media (min-width: 1450px) {
+    header>div>h2 {
+        width: 25%;
+    }
+
+    #intro {
+        margin-left: 12%;
+    }
+
+    h1 {
+        margin-left: 3%;
+    }
+}
+    </style>
+</head>
+<body>
+<!--    <img id="main_background" src="assets/img/main_background_2.jpg" alt="">-->
+<nav>
+    <ul>
+        <li><a href="https://bitcoin.org/en/"><img src="assets/img/bitcoin.png" alt="Bitcoin" width="25px"></a></li>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#event-details">Event Details</a></li>
+        <li><a href="#guests-speakers">Guests & Speakers</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#schedule">Schedule & Sessions</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#event-location">Event Location</a></li>
+        <li><a href="assignment2-reflection/assignment2-reflection.html">Reflection Page</a></li>
+    </ul>
+</nav>
+<br>
+<header>
+    <div id="intro">
+        <h1>The Blockchain Event</h1>
+        <img src="assets/img/bitcoin_1.png" alt="Bitcoin">
+        <h2 id="introd">
+            Get ready to embark on an illuminating journey into the world of blockchain technology and Bitcoin! Join us for an extraordinary event where some of the brightest minds in the field will unlock the mysteries of these revolutionary innovations. Whether you're a seasoned crypto enthusiast or just getting started, this event is designed to demystify the complex world of blockchain, empowering you with the knowledge to navigate this cutting-edge technology.
+        </h2>
+        <!--            <img src="assets/img/bitcoin.png" alt="Bitcoin" >-->
+    </div>
+</header>
+
+<section id="event-details">
+    <br><br><br>
+    <h2>Event Details</h2>
+    <article>
+        <time datetime="2023-11-06T23:59">Due Date: December 5th, 2023 @7:00 PM</time>
+        <address>Second Floor Events, 461 King St W, Toronto, ON M5V 1K4</address>
+        Join us at Second Floor Events on December 5th at 7:00 PM for an educational and inspiring evening where you'll gain valuable insights into blockchain technology, Bitcoin, and the potential opportunities and risks associated with these digital innovations. Don't miss out on this chance to deepen your understanding of the crypto world and meet like-minded individuals passionate about the future of finance and technology.
+    </article>
+</section>
+
+<section id="guests-speakers">
+    <br><br><br>
+    <h2>Guests and speakers</h2>
+    <div>
+        <figure>
+            <a href="assets/img/Vitalik.jpg"><img src="assets/img/Vitalik.jpg" alt="Vitalik Buterin"></a>
+        </figure>
+        <h3>
+            <a href="https://en.wikipedia.org/wiki/Vitalik_Buterin">Vitalik Buterin</a> is the co-founder of Ethereum, a groundbreaking blockchain platform. Born in 1994 in
+            Russia, he is a visionary in the world of cryptocurrency, known for his early Ethereum whitepaper.
+            Buterin's pioneering work has revolutionized blockchain technology, introducing smart contracts and
+            decentralized applications, shaping the future of digital innovation.
+        </h3>
+    </div>
+    <div>
+        <figure>
+            <a href="assets/img/Michael_saylor.jpg"><img src="assets/img/Michael_saylor.jpg" alt="Michael Saylor"></a>
+        </figure>
+        <h3>
+            <a href="https://en.wikipedia.org/wiki/Michael_J._Saylor">Michael Saylor</a> is a prominent figure in the world of cryptocurrency and blockchain technology. He is
+            best known as the CEO and founder of MicroStrategy, a business intelligence and software company that
+            became a trailblazer by investing heavily in Bitcoin. Saylor's strategic approach to cryptocurrency
+            investment has garnered significant attention and contributed to the adoption of digital assets by
+            traditional financial institutions. His leadership and insights have solidified his position as a key
+            influencer in the cryptocurrency space.
+        </h3>
+    </div>
+    <div>
+        <figure>
+            <a href="assets/img/pomp.jpg"><img src="assets/img/pomp.jpg" alt="Anthony Pompliano"></a>
+        </figure>
+        <h3>
+            <a href="https://en.bitcoinwiki.org/wiki/Anthony_Pompliano">Anthony Pompliano</a>, widely recognized for his profound knowledge in the field of cryptocurrency, has made a substantial impact on the industry. An entrepreneur and influential figure, Pompliano is known for his extensive expertise and relentless advocacy for the adoption of digital assets. His deep understanding of blockchain technology and its potential applications has established him as a prominent influencer within the crypto community.
+        </h3>
+    </div>
+    <div>
+        <figure>
+            <a href="assets/img/james.jpg"><img src="assets/img/james.jpg" alt="James"></a>
+        </figure>
+        <h3>
+            <a href="https://www.linkedin.com/in/james-wang-5166575/">James Wang</a> is a renowned figure within the cryptocurrency domain, celebrated for his extensive knowledge and insights in the field. As a respected expert, Wang has made significant contributions to the understanding and advancement of blockchain technology and digital assets. His expertise and thought leadership have solidified his position as a prominent influencer in the world of cryptocurrency.
+        </h3>
+    </div>
+</section>
+<section id="gallery">
+    <br><br><br>
+    <h2>Gallery</h2>
+    <div>
+        <a href="assets/img/crypto_event.jpg"><img src="assets/img/crypto_event.jpg" alt="image_1"></a>
+        <a href="assets/img/crypto_event_1.jpg"><img src="assets/img/crypto_event_1.jpg" alt="image_2"></a>
+    </div>
+    <div>
+        <a href="assets/img/crypto_event_2.jpg"><img src="assets/img/crypto_event_2.jpg" alt="image_3"></a>
+        <a href="assets/img/crypto_event_3.jpg"><img src="assets/img/crypto_event_3.jpg" alt="image_4"></a>
+    </div>
+
+
+</section>
+<section id="schedule">
+    <br><br>
+    <div>
+        <br>
+        <h2>Schedule</h2>
+        <h3><strong>Day 1: Introduction to Blockchain and Bitcoin</strong></h3>
+        <h4><strong>9:00 AM - 9:30 AM:</strong> Registration and Welcome Coffee</h4>
+        <h4>9:30 AM - 10:30 AM: Opening Keynote: The Blockchain Revolution</h4>
+        <h4>10:45 AM - 12:00 PM: Session 1: What is Blockchain and How Does It Work?</h4>
+        <h4>12:00 PM - 1:30 PM: Lunch Break</h4>
+        <h4>1:30 PM - 3:00 PM: Session 2: Exploring the World of Cryptocurrencies</h4>
+        <h4>3:15 PM - 4:30 PM: Session 3: Bitcoin: Past, Present, and Future</h4>
+        <h4>4:45 PM - 5:30 PM: Networking Reception</h4>
+        <h3>Day 2: Investing in Bitcoin and Beyond</h3>
+        <h4>9:30 AM - 10:30 AM: Morning Coffee and Recap</h4>
+        <h4>10:45 AM - 12:00 PM: Session 4: Strategies for Investing in Bitcoin</h4>
+        <h4>12:00 PM - 1:30 PM: Lunch Break</h4>
+        <h4>1:30 PM - 3:00 PM: Session 5: Risk Management in Cryptocurrency Investment</h4>
+        <h4>3:15 PM - 4:30 PM: Session 6: Navigating the Crypto Mining Landscape</h4>
+        <h4>4:45 PM - 5:30 PM: Closing Remarks and Q&A</h4>
+        <h4>6:00 PM - 8:00 PM: Networking Dinner</h4>
+    </div>
+    <aside>
+        <h2>Sessions</h2>
+        <h4>Session 1: What is Blockchain and How Does It Work?
+            Explore the fundamental principles of blockchain technology, its architecture, and how it enables
+            secure, transparent transactions.</h4>
+        <h4>Session 2: Exploring the World of Cryptocurrencies
+            Dive into the diverse world of cryptocurrencies, including altcoins, tokens, and the role they play in
+            the digital economy.</h4>
+        <h4>Session 3: Bitcoin: Past, Present, and Future
+            Trace the evolution of Bitcoin, its impact on the financial landscape, and its potential for the
+            future.</h4>
+        <h4>Session 4: Strategies for Investing in Bitcoin
+            Gain insights into various investment strategies for Bitcoin, including long-term holdings, day trading,
+            and more.</h4>
+        <h4>Session 5: Risk Management in Cryptocurrency Investment
+            Learn how to mitigate risks associated with cryptocurrency investments and protect your assets.</h4>
+        <h4>Session 6: Navigating the Crypto Mining Landscape
+            Explore the intricacies of cryptocurrency mining, from hardware selection to profitability
+            analysis.</h4>
+    </aside>
+</section>
+<section id="testimonials">
+    <br>br
+    <br><h2>Testimonials</h2>
+    <div><h3>Vitalik Buterin, Co-founder of Ethereum</h3>
+        <p>"Vitalik's insights at 'Blockchain Unleashed' were nothing short of exceptional. His deep knowledge of
+            blockchain technology and cryptocurrency is truly remarkable. This event was an invaluable learning
+            experience."</p>
+        <h3>Michael Saylor, CEO of MicroStrategy</h3>
+        <p>"Michael's session on cryptocurrency investment strategies was a game-changer. His practical advice and
+            strategic approach left a lasting impact. I'm grateful for the opportunity to learn from a visionary
+            like him."</p>
+    </div> <h3>Anthony Pompliano, Co-founder of Morgan Creek Digital</h3>
+    <p>"Anthony's presentation on Bitcoin was both informative and inspiring. His passion for the subject matter is evident, and his ability to communicate complex concepts in a clear and engaging way made it an unforgettable session."</p>
+    <h3>James Wang, Crypto Analyst and Researcher</h3>
+    <p>"James Wang's insights into the crypto market were second to none. His deep dive into market analysis and trends was incredibly informative. 'Blockchain Unleashed' was a treasure trove of knowledge thanks to speakers like James."</p>
+</section>
+<section id="event-location">
+    <h2>Event Location</h2>
+    <iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2887.178216048625!2d-79.39866532379789!3d43.644460352996006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34d2faeb3eff%3A0x62ac840462c2583a!2s461%20King%20St%20W%2C%20Toronto%2C%20ON%20M5V%201K4!5e0!3m2!1sen!2sca!4v1698179543645!5m2!1sen!2sca" width=90% height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <article>
+        <time datetime="2023-11-06T23:59">Due Date: December 5th, 2023 @7:00 PM</time>
+        <address>Second Floor Events, 461 King St W, Toronto, ON M5V 1K4</address>
+    </article>
+</section>
+<footer>
+
+</footer>
+<script id="script" src=https://my.gblearn.com/js/loadscript.js></script>

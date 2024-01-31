@@ -1,0 +1,168 @@
+h1 {
+    float: left;
+    margin-left: 13%;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#introd {
+    text-decoration: none;
+}
+
+section#guests-speakers a {
+    color:white;
+}
+
+/* NAV */
+
+nav li {
+    float: left;
+}
+
+nav>ul>li>a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin: 10px;
+}
+
+nav>ul>li>a:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.2);
+}
+
+nav {
+    position: sticky;
+    border: solid grey 1px;
+    overflow: auto;
+    top: 0;
+    background-color: black;
+    /*background-image: linear-gradient(to bottom, rebeccapurple, white);*/
+    z-index: 100;
+}
+
+nav>ul{
+    list-style-type: none;
+}
+
+#main_background {
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+body {
+    background-color: black;
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, article, p {
+    color: white;
+}
+
+header>div {
+    padding: 35px;
+    /*margin-top: 15%;*/
+}
+
+header>div>h2 {
+    width: 50%;
+}
+
+header>div>img{
+    width: 4em;
+    margin: auto;
+}
+
+section>div>h3 {
+    margin: 10px;
+}
+
+section>div>figure>a>img {
+    width: 80%;
+}
+
+section>div>figure>a>img:hover{
+    transform: scale(1.1);
+}
+
+section>div{
+    float: left;
+    width: 50%;
+}
+
+#gallery, #schedule, #testimonials {
+    clear: both;
+}
+
+#gallery>div>a>img {
+    width: 100%;
+    float: left;
+}
+
+#gallery>div>a>img:hover {
+    transform: scale(1.05)
+}
+
+#schedule>aside {
+    margin-top: 20px;
+    float: right;
+    width: 50%
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#map {
+    margin: 0 auto 40px ;
+    display: flex;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-image: url("../img/main_background_2.jpg");
+    background-size: cover;
+    position: relative;
+}
+
+/* Mobile design */
+
+@media (max-width: 768px) {
+    header {
+        background-image: none;
+    }
+
+    header>div>h2 {
+        width: 100%;
+    }
+}
+
+/* Big screen design */
+
+@media (min-width: 1450px) {
+    header>div>h2 {
+        width: 25%;
+    }
+
+    #intro {
+        margin-left: 12%;
+    }
+
+    h1 {
+        margin-left: 3%;
+    }
+}
